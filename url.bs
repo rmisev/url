@@ -648,7 +648,8 @@ then runs these steps:
    the <a>EOF code point</a>,
    <a>syntax violation</a>, return failure.
 
-   <li><p>If <var>dots seen</var> is less than 3, then:
+   <li>
+    <p>If <var>dots seen</var> is less than 3, then:
 
     <ol>
      <li><p>If <a>c</a> is not "<code>.</code>", <a>syntax violation</a>, return failure.

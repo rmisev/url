@@ -621,7 +621,7 @@ then runs these steps:
 
     <ol>
      <li><p>If <a>c</a> is a "<code>.</code>" and <var>numbers seen</var> is less than 4,
-     increase pointer by one.
+     increase <var>pointer</var> by one.
 
      <li>Otherwise, <a>syntax violation</a>, return failure.
     </ol>
